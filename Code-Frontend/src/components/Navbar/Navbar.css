@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: white;
+     padding: 10px 20px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .logo {
+     font-size: 24px;
+     font-weight: bold;
+ }
+ 
+ .login-button {
+     padding: 8px 16px;
+     background-color: #007BFF;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     padding: 20px;
+     font-size: 16px;
+     font-weight: bold;
+     transition: background-color 0.3s ease;
+ }
+ 
+ .login-button:hover {
+     background-color: #0056b3;
+ }
+ 
+ .login-button:active {
+     background-color: #003d80;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+ } 
