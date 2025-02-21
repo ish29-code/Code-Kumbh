@@ -1,0 +1,123 @@
+/* Footer General Styles */
+.footer {
+     background-color: #064663; /* Deep blue for travel theme */
+     color: white;
+     padding: 40px 20px;
+     font-family: Arial, sans-serif;
+     width: 100%;
+     margin-top: auto; /* Auto pushes footer to the bottom */
+   }
+   
+   /* Footer Container */
+   .footer-container {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     max-width: 1200px;
+     margin: 0 auto;
+     gap: 30px;
+   }
+   
+   /* Footer Sections */
+   .footer-brand,
+   .footer-links,
+   .footer-social {
+     flex: 1;
+     min-width: 250px;
+     margin: 10px 20px;
+   }
+   
+   /* Section Titles */
+   .footer h3 {
+     margin-bottom: 15px;
+     font-size: 18px;
+     color: #FFD369; /* Golden accent */
+   }
+   
+   /* Text & Lists */
+   .footer p {
+     font-size: 14px;
+     line-height: 1.6;
+   }
+   
+   /* Remove bullet points and text decoration */
+   .footer-nav {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+   }
+   
+   .footer-nav li {
+     list-style: none;
+     margin-bottom: 10px;
+   }
+   
+   .footer-link {
+     text-decoration: none !important; /* Ensure no underline */
+     color: white;
+     transition: color 0.3s ease;
+   }
+   
+   .footer-link:hover {
+     color: #FFD369;
+   }
+   
+   /* Social Icons */
+   .footer-social .social-icons {
+     display: flex;
+     gap: 15px;
+     justify-content: center;
+   }
+   
+   .footer-social a {
+     color: white;
+     font-size: 20px;
+     transition: color 0.3s, transform 0.2s;
+   }
+   
+   .footer-social a:hover {
+     color: #FFD369;
+     transform: scale(1.1);
+   }
+   
+   /* Footer Bottom */
+   .footer-bottom {
+     text-align: center;
+     margin-top: 20px;
+     font-size: 14px;
+     border-top: 1px solid rgba(255, 255, 255, 0.2);
+     padding-top: 15px;
+     opacity: 0.8;
+   }
+   
+   /* Sticky Footer Layout */
+   html, body {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+   }
+   
+   #root {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+   }
+   
+   .app-content {
+     flex: 1;
+   }
+   
+   /* Responsive Design */
+   @media (max-width: 768px) {
+     .footer-container {
+       flex-direction: column;
+       text-align: center;
+     }
+   }
+   
+   @media (max-width: 480px) {
+     .footer {
+       width: 100%;
+     }
+   }
+   

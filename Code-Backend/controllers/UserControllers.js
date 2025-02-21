@@ -32,7 +32,7 @@ const loginUser = async (req, res) => {
 
 // Register user
 const registerUser = async (req, res) => {
-    console.log("Received Data:", req.body); // 🛠 Debugging Line
+    console.log("Received Data:", req.body); //  Debugging Line
 
     const {name, email, password} = req.body;
     if (!name || !email || !password) {

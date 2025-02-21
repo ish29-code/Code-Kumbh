@@ -30,3 +30,33 @@ body{
   font-size: 20px;
   cursor: pointer;
 }
+
+/* Ensure the entire page takes full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flex container for layout */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content will push the footer down */
+.app-content {
+  flex: 1;
+  margin-top: 60px; /* Adjust this for spacing */
+}
+
+/* Footer should always stay at bottom */
+.footer {
+  background-color: #064663;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
